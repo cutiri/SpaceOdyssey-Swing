@@ -26,7 +26,7 @@ We welcome contributions to improve and expand SpaceOdyssey! If you would like t
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+See the [LICENSE](https://github.com/cutiri/SpaceOdyssey-Swing?tab=CC0-1.0-1-ov-file#) file for details.
 
 ## Credits
 
