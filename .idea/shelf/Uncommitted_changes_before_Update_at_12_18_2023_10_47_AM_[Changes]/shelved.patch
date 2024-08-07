@@ -1,0 +1,42 @@
+Index: src/star/odyssey/ui/swing/MainFrame.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package star.odyssey.ui.swing;\n\nimport star.odyssey.game.GameUtil;\nimport star.odyssey.ui.swing.callbacks.CallBackString;\nimport star.odyssey.ui.swing.callbacks.CallBackVoid;\nimport star.odyssey.ui.swing.text.ColoredText;\nimport star.odyssey.ui.swing.text.TextColor;\n\nimport javax.swing.*;\nimport javax.swing.text.*;\nimport java.awt.*;\nimport java.awt.event.ActionEvent;\nimport java.util.HashMap;\nimport java.util.Map;\n\npublic class MainFrame extends JFrame {\n    private JPanel mainPanel;\n    private JButton clickMeButton;\n    private JButton helpButton;\n    private JLabel label1;\n    private JTextField textField1;\n    private JTextPane textPane1;\n\n    StyleContext sc = new StyleContext();\n    final DefaultStyledDocument doc = new DefaultStyledDocument(sc);\n    private final Map<TextColor, Style> styleMap = new HashMap<>();\n    private CallBackVoid consoleCallback;\n    private CallBackString consoleCallbackString;\n\n    public MainFrame(){\n        SwingDisplayUtils.setCallBack(this::displayTextInsidePane);\n\n        this.setContentPane(mainPanel);\n        this.setDefaultCloseOperation(EXIT_ON_CLOSE);\n        this.setSize(820, 500);\n        this.setLocationRelativeTo(null);\n        this.setVisible(true);\n        this.setResizable(false);\n\n\n        clickMeButton.addActionListener(this::clickMeButton_Click);\n        textField1.addActionListener(this::clickMeButton_Click);\n        helpButton.addActionListener(this::displayHelpPopup);\n\n        initializeStyleMap();\n    }\n\n    private void initializeStyleMap(){\n\n        Font font = new Font(\"Courier New\", Font.PLAIN, 12);\n        textPane1.setFont(font);\n\n        Style styleRed = textPane1.addStyle(\"RedStyle\", null);\n        StyleConstants.setForeground(styleRed, Color.RED);\n        styleMap.put(TextColor.RED, styleRed);\n        Style styleBlue = textPane1.addStyle(\"BlueStyle\", null);\n        StyleConstants.setForeground(styleBlue, Color.BLUE);\n        styleMap.put(TextColor.BLUE, styleBlue);\n        Style styleGreen = textPane1.addStyle(\"GreenStyle\", null);\n        StyleConstants.setForeground(styleGreen, Color.GREEN);\n        styleMap.put(TextColor.GREEN, styleGreen);\n        Style styleMagenta = textPane1.addStyle(\"MagentaStyle\", null);\n        StyleConstants.setForeground(styleMagenta, Color.MAGENTA);\n        styleMap.put(TextColor.MAGENTA, styleMagenta);\n        Style styleCyan = textPane1.addStyle(\"CyanStyle\", null);\n        StyleConstants.setForeground(styleCyan, Color.CYAN);\n        styleMap.put(TextColor.CYAN, styleCyan);\n        Style styleBrown = textPane1.addStyle(\"BrownStyle\", null);\n        StyleConstants.setForeground(styleBrown, Color.YELLOW);\n        styleMap.put(TextColor.BROWN, styleBrown);\n\n        Style fontStyle = textPane1.addStyle(\"MyFont\", null);\n        styleMap.put(TextColor.NONE, fontStyle);\n        StyleConstants.setForeground(fontStyle, Color.WHITE);\n        for (var style : styleMap.values()){\n            StyleConstants.setBold(style, false);\n        }\n    }\n\n    private void clickMeButton_Click(ActionEvent e){\n        if(textField1.getText().equals(\"\")){\n            consoleCallbackString.callback(null);\n        }else {\n            consoleCallbackString.callback(textField1.getText());\n        }\n        textField1.setText(\"\");\n    }\n\n    public void displayTextInsidePane(java.util.List<ColoredText> text, CallBackString callback){\n        this.consoleCallbackString = callback;\n        if(text == null){\n            textPane1.setText(\"\");\n        }else {\n            StyledDocument styledDoc = textPane1.getStyledDocument();\n            Style defaultStyle = textPane1.getStyle(StyleContext.DEFAULT_STYLE);\n            try {\n                for (var elem : text) {\n                    styledDoc.insertString(styledDoc.getLength(), elem.getText(), styleMap.get(elem.getTextColor()));\n                }\n            } catch (BadLocationException e) {\n                e.printStackTrace();\n            }\n        }\n    }\n\n    private void displayHelpPopup(ActionEvent e){\n        String helpText = GameUtil.jsonToString(\"./data/gameText.json\", \"helpText2\");\n        JOptionPane.showMessageDialog(this,helpText);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/star/odyssey/ui/swing/MainFrame.java b/src/star/odyssey/ui/swing/MainFrame.java
+--- a/src/star/odyssey/ui/swing/MainFrame.java	(revision 8753a8bf017ce6fce8c1e35fb8e8a60c64730dbb)
++++ b/src/star/odyssey/ui/swing/MainFrame.java	(date 1702398212575)
+@@ -1,6 +1,7 @@
+ package star.odyssey.ui.swing;
+ 
+ import star.odyssey.game.GameUtil;
++import star.odyssey.location.Location;
+ import star.odyssey.ui.swing.callbacks.CallBackString;
+ import star.odyssey.ui.swing.callbacks.CallBackVoid;
+ import star.odyssey.ui.swing.text.ColoredText;
+@@ -107,4 +108,5 @@
+         String helpText = GameUtil.jsonToString("./data/gameText.json", "helpText2");
+         JOptionPane.showMessageDialog(this,helpText);
+     }
++
+ }
+Index: .idea/artifacts/star_odyssey_rpg_jar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"ArtifactManager\">\n  <artifact type=\"jar\" name=\"star-odyssey-rpg:jar\">\n    <output-path>$USER_HOME$/Desktop</output-path>\n    <root id=\"archive\" name=\"star-odyssey-rpg.jar\">\n      <element id=\"module-output\" name=\"star-odyssey-rpg\" />\n      <element id=\"extracted-dir\" path=\"$PROJECT_DIR$/lib/commons-text-1.11.0.jar\" path-in-jar=\"/\" />\n      <element id=\"extracted-dir\" path=\"$PROJECT_DIR$/lib/commons-lang3-3.13.0.jar\" path-in-jar=\"/\" />\n      <element id=\"extracted-dir\" path=\"$PROJECT_DIR$/lib/gson-2.10.1.jar\" path-in-jar=\"/\" />\n      <element id=\"extracted-dir\" path=\"$PROJECT_DIR$/lib/app-utils-1.1.jar\" path-in-jar=\"/\" />\n    </root>\n  </artifact>\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/artifacts/star_odyssey_rpg_jar.xml b/.idea/artifacts/star_odyssey_rpg_jar.xml
+--- a/.idea/artifacts/star_odyssey_rpg_jar.xml	(revision 8753a8bf017ce6fce8c1e35fb8e8a60c64730dbb)
++++ b/.idea/artifacts/star_odyssey_rpg_jar.xml	(date 1702330786847)
+@@ -1,6 +1,6 @@
+ <component name="ArtifactManager">
+   <artifact type="jar" name="star-odyssey-rpg:jar">
+-    <output-path>$USER_HOME$/Desktop</output-path>
++    <output-path>$USER_HOME$/Downloads</output-path>
+     <root id="archive" name="star-odyssey-rpg.jar">
+       <element id="module-output" name="star-odyssey-rpg" />
+       <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-text-1.11.0.jar" path-in-jar="/" />

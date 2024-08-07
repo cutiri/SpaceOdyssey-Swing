@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="star-odyssey-rpg:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03c378ee-67dd-4a4c-9b5f-6707a55a901f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2ZDqe25nrVWWPTCyAZtcTNl6iG7" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="221" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="star.odyssey.ui.swing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="HelpFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="star.odyssey.ui.swing.HelpFrame" />
+      <module name="star-odyssey-rpg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="star.odyssey.command.swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="star.odyssey.main.Main" />
+      <module name="star-odyssey-rpg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="star.odyssey.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HelpFrame" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HelpFrame" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03c378ee-67dd-4a4c-9b5f-6707a55a901f" name="Changes" comment="" />
+      <created>1701967089266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701967089266</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Fixed folder structure, AB#554&#10;&#10;- Fixed a weird issue where star.odyssey was a single folder causing any new addition (class or package) to the project to go into a star/odyssey.">
+      <created>1701967839364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701967839364</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed folder structure, AB#554&#10;&#10;- Fixed a weird issue where star.odyssey was a single folder causing any new addition (class or package) to the project to go into a star/odyssey.">
+      <created>1701967995772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701967995772</updated>
+    </task>
+    <task id="LOCAL-00003" summary="POC Window appears, AB#555&#10;&#10;- A window appears with nothing on it&#10;- Modified main/Main.java in order for the Window to show up as well as the Console">
+      <created>1701968685330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701968685330</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Button on Main Window, AB#556&#10;&#10;- Added a button to the main window">
+      <created>1701969652545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701969652545</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Text on Main Window, AB#557&#10;&#10;- Added a label to the main window">
+      <created>1701970250914</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701970250914</updated>
+    </task>
+    <task id="LOCAL-00006" summary="InputBox that accepts text, AB#558&#10;&#10;- Added an input box, this one will accept text when Enter is pressed then clear itself, this text will be displayed in the existing label.">
+      <created>1701971867720</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701971867720</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Game title screen, AB#559&#10;&#10;- Added logic so the backend of the game is aware of what type of GUI should use (Console or Swing) /env/GameEnvironment.java&#10;- Added functional interfaces that handle communication between Swing and the game's backend, this will allow us to transition the game flow from a loop to an event based app.&#10;- Added a MainFrame class with a Pane inside that accepts text in different colors allowing the backend to send colored text&#10;- Added handlers in order to display the game's splash screen.">
+      <created>1702068926832</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702068926832</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Game title screen cleared when the user press RETURN, AB#560&#10;&#10;- Added a line inside SwingMainMenu that sends null to the MainFrame, this one will understand this as a &quot;clear screen&quot;.">
+      <created>1702069640361</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702069640361</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Game can be played in Swing, AB#563&#10;&#10;- Added classes to send text to the swing interface&#10;- Added functional interfaces to handle communication between Swing and the back end&#10;- Added a flag inside GameEnvironment to know if the game should be played in the Console or Swing">
+      <created>1702315621306</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702315621306</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Game can be played in Swing, AB#563&#10;&#10;- Added classes to send text to the swing interface&#10;- Added functional interfaces to handle communication between Swing and the back end&#10;- Added a flag inside GameEnvironment to know if the game should be played in the Console or Swing&#10;&#10;- Game is &quot;playable&quot; in Swing.">
+      <created>1702326264773</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702326264773</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Game Introduction, AB#561&#10;&#10;- Added game introduction inside the Swing interface&#10;- Fixed but: Display the map inside the game">
+      <created>1702330259248</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702330259248</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Game winning and losing screens, AB#927&#10;&#10;- Added screens for when the player win or loses. After which  the player gets redirected to the Main Menu.">
+      <created>1702941043270</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702941043270</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Game winning and losing screens, AB#927&#10;&#10;- Added screens for when the player win or loses. After which  the player gets redirected to the Main Menu.">
+      <created>1702941099395</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702941099395</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Game winning and losing screens, AB#927&#10;&#10;- Added screens for when the player win or loses. After which  the player gets redirected to the Main Menu.&#10;- Fixed a bug that was causing the layout to not display properly">
+      <created>1702943247133</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702943247133</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Game winning and losing screens, AB#927&#10;&#10;- Changed the Main Menu image">
+      <created>1703004084041</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703004084041</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Game winning and losing screens, AB#934&#10;&#10;- Changed the Main Menu image">
+      <created>1703004208966</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1703004208966</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Initial commit for this application">
+      <created>1723047980408</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723047980408</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed folder structure, AB#554&#10;&#10;- Fixed a weird issue where star.odyssey was a single folder causing any new addition (class or package) to the project to go into a star/odyssey." />
+    <MESSAGE value="POC Window appears, AB#555&#10;&#10;- A window appears with nothing on it&#10;- Modified main/Main.java in order for the Window to show up as well as the Console" />
+    <MESSAGE value="Button on Main Window, AB#556&#10;&#10;- Added a button to the main window" />
+    <MESSAGE value="Text on Main Window, AB#557&#10;&#10;- Added a label to the main window" />
+    <MESSAGE value="InputBox that accepts text, AB#558&#10;&#10;- Added an input box, this one will accept text when Enter is pressed then clear itself, this text will be displayed in the existing label." />
+    <MESSAGE value="Game title screen, AB#559&#10;&#10;- Added logic so the backend of the game is aware of what type of GUI should use (Console or Swing) /env/GameEnvironment.java&#10;- Added functional interfaces that handle communication between Swing and the game's backend, this will allow us to transition the game flow from a loop to an event based app.&#10;- Added a MainFrame class with a Pane inside that accepts text in different colors allowing the backend to send colored text&#10;- Added handlers in order to display the game's splash screen." />
+    <MESSAGE value="Game title screen cleared when the user press RETURN, AB#560&#10;&#10;- Added a line inside SwingMainMenu that sends null to the MainFrame, this one will understand this as a &quot;clear screen&quot;." />
+    <MESSAGE value="Game can be played in Swing, AB#563&#10;&#10;- Added classes to send text to the swing interface&#10;- Added functional interfaces to handle communication between Swing and the back end&#10;- Added a flag inside GameEnvironment to know if the game should be played in the Console or Swing" />
+    <MESSAGE value="Game can be played in Swing, AB#563&#10;&#10;- Added classes to send text to the swing interface&#10;- Added functional interfaces to handle communication between Swing and the back end&#10;- Added a flag inside GameEnvironment to know if the game should be played in the Console or Swing&#10;&#10;- Game is &quot;playable&quot; in Swing." />
+    <MESSAGE value="Game Introduction, AB#561&#10;&#10;- Added game introduction inside the Swing interface&#10;- Fixed but: Display the map inside the game" />
+    <MESSAGE value="Game winning and losing screens, AB#927&#10;&#10;- Added screens for when the player win or loses. After which  the player gets redirected to the Main Menu." />
+    <MESSAGE value="Game winning and losing screens, AB#927&#10;&#10;- Added screens for when the player win or loses. After which  the player gets redirected to the Main Menu.&#10;- Fixed a bug that was causing the layout to not display properly" />
+    <MESSAGE value="Game winning and losing screens, AB#927&#10;&#10;- Changed the Main Menu image" />
+    <MESSAGE value="Game winning and losing screens, AB#934&#10;&#10;- Changed the Main Menu image" />
+    <MESSAGE value="Initial commit for this application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for this application" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Capstone$Main.ic" NAME="Main Coverage Results" MODIFIED="1720551372788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>star.odyssey.main.*</FILTER>
+    </SUITE>
+  </component>
+</project>
