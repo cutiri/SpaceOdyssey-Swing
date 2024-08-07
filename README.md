@@ -11,7 +11,10 @@ SpaceOdyssey is a Java-based game originally created as a console application by
 ## Usage
 
 1. **Launch the Application**:
-   Run the `Main` class to start the game with the Swing UI.
+   - Download the .zip file that is inside the `_compiled` folder (`star-odyssey-rpg.zip`).
+   - Unzip the downloaded file.
+   - You should end up with a folder named `star-odyssey-rpg` which content will be `star-odyssey-rpg.jar` and a folder `data`.
+   - Double click `star-odyssey-rpg.jar` and the application will open.
 
 2. **Gameplay**:
    - **Controls**: Use the mouse to interact with the game elements.
